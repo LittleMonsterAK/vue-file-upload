@@ -1,7 +1,7 @@
 <template>
 <span class="vue-file-upload">
   <slot name="label">上传文件</slot>
-  <input ref="fileInput" type="file" name="file">
+  <input ref="fileInput" type="file" name="file" multiple >
 </span>
 </template>
 <script>
